@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EasyCotas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>EasyCotas</h1>
+
+        <p class="descricao">
+            Preencha seus dados para receber informações sobre consórcios.
+        </p>
+
+        <form id="formulario">
+
+            <input type="text" id="nome" placeholder="Seu nome" required>
+
+            <input type="tel" id="telefone" placeholder="WhatsApp" required>
+
+            <input type="email" id="email" placeholder="Seu email" required>
+
+            <select id="objetivo" required>
+
+                <option value="">
+                    Selecione uma opção
+                </option>
+
+                <option value="avaliar">
+                    Quero avaliar se vale aderir a um consórcio
+                </option>
+
+                <option value="pesquisando">
+                    Só estou pesquisando
+                </option>
+
+            </select>
+
+            <button type="submit">
+                Enviar
+            </button>
+
+        </form>
+
+        <p id="mensagem"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
